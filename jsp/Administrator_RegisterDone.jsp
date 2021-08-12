@@ -21,7 +21,7 @@
 				<tr>
 					<td><input type="hidden" name="shohin_id" value="${ product_listitem.shohin_id }" />
 						<c:out value="${ product_listitem.shohin_id }" /></td>
-					<td><img src="/PolytechMarket/img/${ product_listitem.shashin }" width="50" height="50"/></td>
+					<td><img src="/shop/img/${ product_listitem.shashin }" width="50" height="50"/></td>
 					<td><input type="hidden" name="shohin_mei" value="${ product_listitem.shohin_mei }" />
 						<c:out value="${ product_listitem.shohin_mei }" /></td>
 					<td><input type="hidden" name="tanka" value="${ product_listitem.tanka }" />
